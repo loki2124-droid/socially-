@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.kjk{
+    width: 100%;
+    min-height: 100vh;
+    background-image:url(back-image.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+}
+nav{
+    padding: 10px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 140px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+    font-style: italic;
+}
+nav ul li a:hover{
+    text-decoration:underline;
+}
+.login{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+    font-weight: 400;
+    padding:14px 40px;
+    background-image:linear-gradient(45deg,#df4881,#c430d7);
+    font-size: 14px;
+    border-radius: 30px 0px 30px 30px;
+    transition:0.5s;
+
+}
+.download{
+    display: inline-block;
+    text-decoration:none ;
+    color: #fff;
+    padding:14px 40px;
+    background-image:linear-gradient(45deg,#df4881,#c430d7);
+    font-size: 14px;
+    border-radius: 30px 0px 30px 30px;
+    transition: 0.5s;
+    cursor:pointer;
+    transform-style: #fff;
+}
+.content{
+    margin-top: 10% ;
+    max-width: 600px;
+}
+.content h1{
+    font-size: 70px;
+    color: #222;
+}
+.content p{
+    margin: 10px 0 30px;
+    color: #333;
+    animation-delay: 0.5s;
+}
+.content .download{
+    margin: 20px 150px;
+    padding:15px 100px;
+    font-size: 20px ;
+    animation-delay: 1s;
+}
+.download:hover{
+    border-top-right-radius: 30px;
+    background-image:linear-gradient(45deg,#484848,#2c2b2b);
+    transition:1s;
+}
+.login:hover{
+    border-top-right-radius: 30px;
+    background-image:linear-gradient(45deg,#484848,#2c2b2b);
+    transition:1s;
+}
+.girl{
+    width:400px;
+    position: absolute;
+    bottom:0;
+    right: 10%;
+}
+.girl.anim{
+    animation-delay: 1.5s;
+}
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+100%{
+    opacity: 1;
+    transform: translateY(0px);
+}
+}
+footer{
+     text-align: center;
+     padding : 0 70px;
+     background-color:rgb(233, 209, 233);
+     color:black;
+     font-family: 'poppins',sans-serif;
+     font-style: oblique;
+     justify-content: space-between;
+     font-size: medium;
+     font-weight: 400 ;
+     list-style: none;
+}
+.vb{
+    color:#333;
+    list-style: none;
+    text-decoration: none;
+}
+.logoj{
+    margin-right: 0 0;
+    padding: 20px;
+
+}
+ul{
+    list-style: none;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #333;
+}
+.vb:hover{
+    background-image:linear-gradient(45deg,#484848,#2c2b2b);
+    border-radius: 30px;
+    padding:10px;
+    transition: 0.5s;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+.ceo{
+    padding :10px;
+}
+.register {
+    opacity: 0;
+    padding:0px;
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'poppins',sans-serif;
+    animation: moveup 0.5s linear forwards;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    animation-delay: 0.5s;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .yt {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    animation: moveup 0.5s linear forwards;
+    animation-delay: 0.5s;
+    
+  }
+  .hg{
+    padding :10px;
+  }
+  @keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
